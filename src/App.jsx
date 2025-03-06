@@ -55,7 +55,7 @@ const App = () => {
             Without the Masssle
           </h1>
 
-          <Search searchTerm={searchTerm} setSearchTerm={setSearchTerm} />
+{/*           <Search searchTerm={searchTerm} setSearchTerm={setSearchTerm} /> */}
           <h1 className="text-white">{searchTerm}</h1>
         </header>
         <section className="all-movies">
